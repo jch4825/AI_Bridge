@@ -47,7 +47,7 @@ export const resourceCategories: ResourceCategory[] = [
         label: '2. AI·소프트웨어 티칭툴 검색도구',
         iconEmoji: '🌱',
         items: [
-          { id: 'teachle-tools', title: 'AI, 소프트웨어 티칭툴 검색도구', url: 'https://teachle.co.kr/teaching-tools/', description: '티끌 자료실에서 제공하는 AI·소프트웨어 티칭툴 검색도구. 수업에 활용할 수 있는 교육 도구를 빠르게 찾아볼 수 있습니다.' },
+          { id: 'edzip', title: '에듀집 (edzip)', url: 'https://edzip.kr/', description: '초등·중등·고등 학교급과 AI·체험 분야별로 에듀테크 제품을 검색하고 교사 사용 후기를 확인할 수 있는 에듀테크 탐색 플랫폼' },
         ],
       },
     ],
@@ -356,6 +356,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'l-3-15', title: '초등 인공지능 교육 모듈형 39강좌', url: 'https://sites.google.com/ptsaebit.es.kr/metaverse/%EC%B4%88%EB%93%B1swai-%EC%BD%98%ED%85%90%EC%B8%A0-%EB%AA%A8%EC%9D%8C/%EC%B4%88%EB%93%B1-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EA%B5%90%EC%9C%A1%EB%AA%A8%EB%93%88%ED%98%95-39%EA%B0%95%EC%A2%8C', description: '초등 단계의 인공지능 교육을 모듈형 39강좌로 구성한 교사용 콘텐츠 모음' },
           { id: 'l-3-19', title: '마이AI 에듀 (MyAI Edu)', url: 'https://myai.kr/', description: '교사·학생을 위한 인공지능 교육 통합 콘텐츠 사이트' },
           { id: 'l-3-20', title: '인공지능 교육자료 사이트 모음(노션)', url: 'https://ai4edu.notion.site/AI-92b8c8eca0294fc7a9a2538bca205bdf', description: '이준기·김귀훈 선생님이 정리한 국내외 AI 교육자료 링크 모음 노션 페이지' },
+          { id: 'teachle-tools', title: 'AI, 소프트웨어 티칭툴 검색도구', url: 'https://teachle.co.kr/teaching-tools/', description: '티끌 자료실에서 제공하는 AI·소프트웨어 티칭툴 검색도구. 수업에 활용할 수 있는 교육 도구를 빠르게 찾아볼 수 있습니다.' },
         ],
       },
       {

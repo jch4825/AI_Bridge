@@ -15,7 +15,7 @@ const CATEGORY_ORDER = [
 ];
 
 const FEATURED_ITEM_ID = 'r-3-4';
-const STRONG_RECOMMENDED_ITEM_ID = 'teachle-tools';
+const STRONG_RECOMMENDED_ITEM_ID = 'edzip';
 
 const CATEGORY_DISPLAY: Record<string, { title: string; subtitle: string }> = {
   'school-admin-support': {
