@@ -222,6 +222,8 @@ export const resourceCategories: ResourceCategory[] = [
         items: [
           { id: 'eth-2-1', title: '경기도교육청 AI원리로 배우는 AI윤리 장학자료', url: 'https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?nttSn=1026158&mi=10961', description: 'AI 원리로 배우는 AI윤리 장학자료와 AI 활용 맞춤형 교육 가이드 자료를 안내하는 경기도교육청 공식 페이지' },
           { id: 'eth-2-2', title: '전북교육청 생성형 AI·디지털 예절 e-북 자료실', url: 'https://www.jbe.go.kr/tSXyyeGg', description: '전북교육청의 똑디와 함께하는 생성형 AI, 인공지능 윤리, 디지털 예절 e-북 자료 목록' },
+          { id: 'eth-2-3', title: 'IAAE 국제인공지능윤리협회', url: 'https://iaae.ai', description: '과학기술정보통신부 산하 비영리단체. AI 윤리 교육·연수, 가이드라인 제정 지원, 청소년 AI 공모전 운영' },
+          { id: 'eth-2-4', title: '초·중·고 AI 윤리교재 목록 (인공지능 윤리 소통채널)', url: 'https://ai.kisdi.re.kr/aieth/bbs/B0000082/list.do?menuNo=400011', description: '초등학교부터 고등학교까지 학년별 AI 윤리교재 12종 전체 목록. 교사용·학생용·놀이중심 수업자료 다운로드 가능' },
         ],
       },
     ],
@@ -251,6 +253,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'jajak-jajak', title: '자작자작', url: 'https://www.jajakjajak.com/', description: '생각 중심 글쓰기 AI 디지털 교육 플랫폼' },
           { id: 'snorkl', title: '스노클 (Snorkl)', url: 'https://snorkl.app/', description: '학생이 풀이 과정과 설명을 음성·화면으로 제출하면 AI 피드백을 제공하는 수업 지원 도구 (해외)' },
           { id: 'brisk-teaching', title: '브리스크 티칭 (Brisk Teaching)', url: 'https://www.briskteaching.com/', description: 'Google Docs·Slides·Forms와 연동되는 AI 교사 크롬 확장 도구. 수업 자료·피드백·퀴즈를 브라우저에서 바로 생성. 개인 교사 무료 (해외)' },
+          { id: 'lesser-ai', title: '레서 (Lesser)', url: 'https://www.lesser.school/', description: '초등(3~6학년)·중·고 학생 대상 AI 국어 문해력·독해 학습 튜터. 학생용 무료, 학교·교사용 LMS는 유료' },
         ],
       },
       {
@@ -333,6 +336,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'ssem-1', title: '서울교육연구정보원 2025 인공지능 교육서비스 활용 수업자료', url: 'https://www.ssem.or.kr/courseOrgider/edcDta/tutHpDta/cmmEdcDta/cmmEdcDtaView.do?courseDataSe=C&dataSn=267299&secKey=nQT4lHRMPu3eZsOOYA8P6GbPy6ofgb6BFWpMSAjpy0w%3D', description: '서울교육연구정보원이 제공하는 인공지능 교육서비스 활용 수업자료집 다운로드 페이지' },
           { id: 'ssem-2', title: '서울교육연구정보원 AI·SW교구 활용 수업자료 가이드북', url: 'https://www.ssem.or.kr/courseOrgider/edcDta/tutHpDta/cmmEdcDta/cmmEdcDtaView.do?dataSn=258288&courseDataSe=C&pageIndex=2&frmGubun=L&pageTy=list', description: 'AI·SW 교구를 활용한 수업 설계와 활동을 참고할 수 있는 서울교육연구정보원 가이드북' },
           { id: 'cbe-creative', title: '충북교육청 창의특수교육과 자료실', url: 'https://www.cbe.go.kr/dept-10/na/ntt/selectNttList.do?mi=10990&bbsId=1546', description: '충북교육청 창의·정보·AI 교육 관련 공문, 자료, 안내를 찾을 수 있는 부서 자료실' },
+          { id: 'goe-hilearning', title: '경기도교육청 하이러닝 (Hi-Learning)', url: 'https://hi.goe.go.kr', description: '경기도교육청의 AI 기반 맞춤형 학습 진단·콘텐츠 추천 플랫폼. 도내 학교 97%가 사용 중인 대표 에듀테크 서비스' },
         ],
       },
       {
@@ -392,6 +396,9 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'l-4-14', title: '칸미고 (Khanmigo)', url: 'https://www.khanmigo.ai/teachers', description: '칸 아카데미의 AI 교수 보조 도구. 수업 계획·평가 문항·학생 오개념 분석 등 교사 지원. Microsoft 협력으로 교사 무료 제공 (해외)' },
           { id: 'l-4-15', title: '스쿨AI (SchoolAI)', url: 'https://schoolai.com', description: '학생용 AI 튜터와 교사 실시간 모니터링 대시보드를 결합한 K-12 인공지능 교육 플랫폼. 교사 무료, FERPA·COPPA 준수 (해외)' },
           { id: 'l-4-16', title: '디핏 (Diffit)', url: 'https://web.diffit.me', description: '텍스트·URL·PDF·영상을 70개 이상 언어와 학년 수준별 읽기 자료로 변환하는 수업 차별화 AI 도구. 학생 데이터 수집 없음, 교사 무료 (해외)' },
+          { id: 'kuraplan', title: '쿠라플랜 (Kuraplan)', url: 'https://www.kuraplan.com', description: '로그인 없이 바로 쓰는 무료 AI 수업·단원·활동지 생성 도구. 인쇄용 학습지 1000개 이상 제공 (해외)' },
+          { id: 'conker-ai', title: '콘커 (Conker)', url: 'https://www.conker.ai', description: '성취기준에 맞춘 퀴즈를 AI로 자동 생성하는 도구. 읽어주기 기능 지원, 무료 요금제는 퀴즈 5개로 제한 (해외)' },
+          { id: 'gibbly', title: '기블리 (Gibbly)', url: 'https://www.gibbly.co', description: '유튜브 영상·문서·주제를 게임형 퀴즈·수업슬라이드로 바꿔주는 AI 도구. 무료 요금제 월 1만 토큰 (해외)' },
         ],
       },
       {
@@ -437,6 +444,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'pol-1-8', title: '수행평가 AI 활용 관리 방안 (교육부)', url: 'https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=104984&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N', description: '교육부와 시도교육청이 2025년 12월 공동 발표한 수행평가 중 AI 활용 허용 범위·표기 방법·부정행위 기준을 담은 실무 지침' },
           { id: 'pol-1-9', title: '국가인공지능전략위원회', url: 'https://www.aikorea.go.kr', description: '대통령 직속 국가인공지능전략위원회 공식 포털. AI 기본법 하위법령·가이드라인·정책 보고서·위원회 회의 자료 제공' },
           { id: 'pol-1-10', title: '인공지능 기본법 (국가법령정보센터)', url: 'https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=268543', description: '2026년 1월 22일 시행된 인공지능 발전과 신뢰 기반 조성 등에 관한 기본법 전문. 생성형 AI 워터마크·고영향 AI 의무 포함' },
+          { id: 'pol-1-11', title: '2026년 교육부 업무계획 보도자료', url: 'https://www.moe.go.kr/upload/filedown/2026_business_plan_press_release.pdf', description: '교육부가 2025년 12월 발표한 2026년 주요 업무계획. AI 교육자료 전환, AI 중점학교 확대 등 연간 정책 방향 수록' },
         ],
       },
       {
@@ -473,6 +481,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'r-1-2', title: '한국과학창의재단 연구보고서', url: 'https://www.kosac.re.kr/menus/244/boards/457/posts', description: '한국과학창의재단이 발간한 과학·수학·정보·융합 교육 분야 연구보고서 모음' },
           { id: 'r-1-3', title: '한국인공지능교육학회', url: 'http://aied.or.kr/', description: '인공지능 교육 연구를 전문으로 하는 학술 단체. 학술지·학술대회 정보 제공' },
           { id: 'r-2-1', title: 'KERIS 종합교육연수원 연수 자료집', url: 'https://www.cet.keris.or.kr/usr/reference/selectTrainingListPageVw.do?menuNo=23100', description: 'KERIS 종합교육연수원에서 제공하는 교원 연수 자료집 모음' },
+          { id: 'r-1-6', title: '2026 재직자 인공지능·디지털 집중과정', url: 'https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105371&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N', description: '교육부·국가평생교육진흥원의 재직자 대상 AI·디지털 역량 강화 연수. 4주 집중캠프·온라인 강좌, 교사도 신청 가능' },
         ],
       },
       {
@@ -501,6 +510,8 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'news-2-4', title: '벤처비트 AI (VentureBeat AI)', url: 'https://venturebeat.com/category/ai/', description: '생성 AI·엔터프라이즈 AI·스타트업 동향을 다루는 글로벌 테크 매체 (해외)' },
           { id: 'news-2-5', title: '더 디코더 (The Decoder)', url: 'https://the-decoder.com', description: '생성 AI·LLM·연구 동향을 집중적으로 다루는 글로벌 AI 뉴스 사이트 (해외)' },
           { id: 'news-2-6', title: '더 배치 (The Batch)', url: 'https://www.deeplearning.ai/the-batch/', description: 'DeepLearning.AI가 발행하는 AI 연구·산업 동향 뉴스레터 (해외)' },
+          { id: 'claude-for-teachers', title: '클로드 포 티처스 (Claude for Teachers)', url: 'https://claude.com/solutions/teachers', description: 'Anthropic이 2026년 7월 출시한 교사 전용 무료 Claude. 미국 K-12 인증 교사 대상, 커리큘럼 연계 수업자료 생성 지원 (해외)' },
+          { id: 'chatgpt-for-teachers', title: '챗GPT 포 티처스 (ChatGPT for Teachers)', url: 'https://chatgpt.com/plans/k12-teachers/', description: 'OpenAI가 미국 K-12 인증 교사에게 2027년 6월까지 무료 제공하는 대화형 AI 전용 워크스페이스 (해외)' },
         ],
       },
     ],

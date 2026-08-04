@@ -75,7 +75,7 @@ const TAG_RULES: Array<{ tag: string; pattern: RegExp }> = [
   { tag: '로컬 AI', pattern: /로컬|Ollama|LM Studio|GPT4ALL|Open WebUI|Jan/i },
   { tag: '노코드', pattern: /노코드|코드 없는|No Code|Teachable Machine|Brightics/i },
   { tag: '출판사', pattern: /출판사|미래엔|아이스크림|비상교육|비바샘|씨마스|천재교육/ },
-  { tag: '시도교육청', pattern: /시도교육청|광주|울산|경상남도교육청|서울시교육청|충청남도교육청/ },
+  { tag: '시도교육청', pattern: /시도교육청|광주|울산|경상남도교육청|서울시교육청|충청남도교육청|경기도교육청|부산|인천|전남|경북|충북/ },
   { tag: '연구', pattern: /학술|논문|학회|연구보고서/ },
   { tag: '연수', pattern: /연수/ },
   { tag: '행정', pattern: /행정|학교업무|학교 업무|생기부|학습발달|업무 도움/ },
