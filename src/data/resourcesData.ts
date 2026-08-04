@@ -48,6 +48,7 @@ export const resourceCategories: ResourceCategory[] = [
         iconEmoji: '🌱',
         items: [
           { id: 'edzip', title: '에듀집 (edzip)', url: 'https://edzip.kr/', description: '초등·중등·고등 학교급과 AI·체험 분야별로 에듀테크 제품을 검색하고 교사 사용 후기를 확인할 수 있는 에듀테크 탐색 플랫폼' },
+          { id: 'askedtech-products', title: '애스크에듀테크 제품정보 (AskEdTech)', url: 'https://askedtech.com/product-information', description: '러닝스파크가 운영하는 에듀테크 제품 정보 검색 서비스. 1,700여 개 제품을 대상 학년·과목·기능별로 걸러 보고 마켓맵으로 비교' },
         ],
       },
     ],
@@ -361,6 +362,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'l-3-19', title: '마이AI 에듀 (MyAI Edu)', url: 'https://myai.kr/', description: '교사·학생을 위한 인공지능 교육 통합 콘텐츠 사이트' },
           { id: 'l-3-20', title: '인공지능 교육자료 사이트 모음(노션)', url: 'https://ai4edu.notion.site/AI-92b8c8eca0294fc7a9a2538bca205bdf', description: '이준기·김귀훈 선생님이 정리한 국내외 AI 교육자료 링크 모음 노션 페이지' },
           { id: 'teachle-tools', title: 'AI, 소프트웨어 티칭툴 검색도구', url: 'https://teachle.co.kr/teaching-tools/', description: '티끌 자료실에서 제공하는 AI·소프트웨어 티칭툴 검색도구. 수업에 활용할 수 있는 교육 도구를 빠르게 찾아볼 수 있습니다.' },
+          { id: 'askedtech-usecases', title: '애스크에듀테크 활용사례 (AskEdTech)', url: 'https://askedtech.com/edtech-usecases', description: '생성형 AI와 에듀테크를 교실 수업·학교 업무에 적용한 사례와 단계별 실행 프레임워크를 정리한 콘텐츠 모음' },
         ],
       },
       {
@@ -482,6 +484,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'r-1-3', title: '한국인공지능교육학회', url: 'http://aied.or.kr/', description: '인공지능 교육 연구를 전문으로 하는 학술 단체. 학술지·학술대회 정보 제공' },
           { id: 'r-2-1', title: 'KERIS 종합교육연수원 연수 자료집', url: 'https://www.cet.keris.or.kr/usr/reference/selectTrainingListPageVw.do?menuNo=23100', description: 'KERIS 종합교육연수원에서 제공하는 교원 연수 자료집 모음' },
           { id: 'r-1-6', title: '2026 재직자 인공지능·디지털 집중과정', url: 'https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105371&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N', description: '교육부·국가평생교육진흥원의 재직자 대상 AI·디지털 역량 강화 연수. 4주 집중캠프·온라인 강좌, 교사도 신청 가능' },
+          { id: 'learnaet', title: '런앳 (LearnAET)', url: 'https://www.learnaet.com/', description: 'AskEdTech(러닝스파크)가 운영하는 교육자 대상 AI·디지털 역량 연수 플랫폼. 무료 웨비나와 온·오프라인 강의 제공' },
         ],
       },
       {
@@ -497,6 +500,7 @@ export const resourceCategories: ResourceCategory[] = [
           { id: 'news-1-6', title: '바이라인네트워크', url: 'https://byline.network', description: 'AI·클라우드·커머스·플랫폼 산업 분석을 제공하는 국내 테크 미디어' },
           { id: 'news-1-7', title: '테크42 (TECH42)', url: 'https://www.tech42.co.kr', description: 'AI·스타트업·디지털 전환 동향을 정리하는 국내 테크 미디어' },
           { id: 'news-1-8', title: '씨아이오 코리아 (CIO Korea)', url: 'https://www.ciokorea.com', description: '기업 IT·AI 도입·보안·클라우드 관련 실무형 기사를 제공' },
+          { id: 'askedtech-archive', title: '애스크에듀테크 지식아카이브 (AskEdTech)', url: 'https://askedtech.com/knowledge-archive', description: '국내외 에듀테크·AI 교육 기사와 정책 문서를 한국어 요약과 함께 모아둔 아카이브. 주제·유형·지역별 검색 지원' },
         ],
       },
       {
