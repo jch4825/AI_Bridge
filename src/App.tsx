@@ -5,6 +5,7 @@ import AccessibilityWidget from './components/AccessibilityWidget';
 import DiagnosticModal from './components/onboarding/DiagnosticModal';
 import { ViewType, Module } from './types';
 import { m, AnimatePresence, LazyMotion, domAnimation } from 'motion/react';
+import { useBackExitGuard } from './hooks/useBackExitGuard';
 import {
   clearLessonProgress,
   getLessonProgress,
@@ -34,6 +35,23 @@ function ViewFallback() {
   );
 }
 
+function ExitHintToast() {
+  return (
+    <m.div
+      key="back-exit-hint"
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 12 }}
+      transition={{ duration: 0.18 }}
+      role="status"
+      aria-live="polite"
+      className="fixed bottom-6 left-1/2 z-[110] -translate-x-1/2 pointer-events-none rounded-full bg-canva-ink/90 px-5 py-3 text-sm font-bold text-white shadow-lg backdrop-blur"
+    >
+      한 번 더 누르면 종료됩니다
+    </m.div>
+  );
+}
+
 function hasSavedLearningPath() {
   return loadPersonaValue() !== null && loadPurposeValue() !== null;
 }
@@ -56,6 +74,7 @@ export default function App() {
   const [showDiagnostic, setShowDiagnostic] = useState(() => !hasCompletedOnboarding());
   const [isLearningPathSaved, setIsLearningPathSaved] = useState(() => hasSavedLearningPath());
   const [completedLessons, setCompletedLessons] = useState<string[]>(() => getLessonProgress());
+  const isExitHintVisible = useBackExitGuard();
 
   // ?lesson= 딥링크는 최초 로드에서만 의미가 있다. tutorial 밖으로 나가면 지워서
   // 새로고침·URL 복사 시 의도치 않게 레슨으로 튕기는 것을 막는다.
@@ -209,6 +228,7 @@ export default function App() {
         </AnimatePresence>
       </main>
       <AccessibilityWidget />
+      <AnimatePresence>{isExitHintVisible && <ExitHintToast />}</AnimatePresence>
       {showDiagnostic && (
         <DiagnosticModal
           onClose={() => {
